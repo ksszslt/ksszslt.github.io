@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kő, papír, olló!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <H1>Kő, papír, olló!</H1>
+    <div id="jatekszabaly">
+        <label>A kő kicsorbítja az ollót,</label>
+        <label>az olló elvágja a papírt,</label>
+        <label>a papír becsomagolja a követ!</label>
+    </div>
+    <div>
+        <label>Válassz!</label>
+        <div>
+            <img class="valasztas" id="ko" src="images/ko.png">
+            <img class="valasztas" id="papir" src="images/papir.png">
+            <img class="valasztas" id="ollo" src="images/ollo.png">
+        </div>
+    </div>
+    <div>
+        <img class="valasztott" id="sajat" src="images/ures.png"></img>
+        <img id="relacio" src="images/ures.png"></img>
+        <img class="valasztott" id="gep" src="images/ures.png"></img>
+    </div>
+    <ul>
+        <li>
+            <label>Nyert:</label>
+            <label id="nyert">0</label>
+        </li>
+        <li>
+            <label>Döntetlen:</label>
+            <label id="dontetlen">0</label>
+        </li>
+        <li>
+            <label>Vesztett:</label>
+            <label id="vesztett">0</label>
+        </li>        
+    </ul>
+    <button id="uj_jatek">Új játék</button>
+    <script src="main.js"></script>
+</body>
+
+</html>
